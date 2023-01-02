@@ -262,6 +262,62 @@ while(count2 > 0) {
 	}
 }
 
+// Acceder a traves de un indice
+
+let names = ['Ryan', 'Bob', 'James', 'John', 'Rick'];
+//             0       1       2        3      4 
+console.log(names[1])
+
+// Obtener la longitud 
+
+console.log(names.length)
+
+
+// For  Se utiliza para ejecutar un bloque de código un número específico de veces.
+
+// Explicacion:  i es 0 mientras i sea menor al largo del arreglo (5)
+// Incrementa en 1 el valor de i
+
+for(let i = 0; i < names.length; i++) {
+	console.error(i);
+}
+
+// Obtenemos la longitud de los nombres. siempre que sea mayor que 0. Por lo tanto
+// No mostrara a ryan que es se ubica en la posicion 0 del array
+
+for(let i = names.length -1 ; i > 0; i--) {
+	console.log(names[i]);
+}
+
+
+
+//? ================== Funciones  ================== 
+
+// Creamos una funcion que tenga la funcionalidad de saludar
+function greeting(personName) {
+	// Le asignamos un valor a personName
+	personName = "Vicho"
+	// Ejecutamos un console log para realizar el saludo
+	console.log('Hello ' + personName);
+}
+greeting();
+
+// Ahora un ejemplo para mas personas. 
+function saludar(nombrePersona) {
+	console.log("Hola y Bievenid@ " + nombrePersona);
+}
+saludar("Joel");
+saludar("Pedro");
+saludar("Pablo");
+
+// Funcion sumar 
+
+function add(n1, n2) {
+	sumar = n1 + n2;
+	console.log("El resultado de la suma es: " + sumar)
+}
+
+add(120, 150);
 
 
 
