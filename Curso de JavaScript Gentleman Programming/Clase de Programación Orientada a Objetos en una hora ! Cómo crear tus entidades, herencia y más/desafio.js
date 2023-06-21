@@ -26,11 +26,13 @@ detector(gato);
 
 let persona = "Matias";
 
+
 function saludar(nombre) {
 	console.log("Bienvenido Sr " + nombre)
 }
 
 saludar(persona);
+
 
 
 
